@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password Strength Meter using HTML CSS & JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<header>Password Strength Meter <br> Using HTML CSS & javaScript</header>
+		<form>
+			<div class="input-container">
+				<input onkeyup="trigger()" type="Password" name="" placeholder="Type password">
+				<span class="hideShowBtn">SHOW</span>
+			</div>
+			<div class="indicator">
+				<span class="weak"></span>
+				<span class="medium"></span>
+				<span class="strong"></span>
+			</div>
+			<div class="text"></div>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
